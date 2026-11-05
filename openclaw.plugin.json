@@ -1,0 +1,8 @@
+{
+  "id": "injection-guard",
+  "name": "Prompt Injection Guard",
+  "description": "Tags tool-fetched content as untrusted, screens it against a rule set, and blocks + logs matches to a local file.",
+  "contracts": { "tools": [] },
+  "activation": { "onStartup": true },
+  "configSchema": { "type": "object", "additionalProperties": false }
+}

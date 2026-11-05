@@ -1,0 +1,15 @@
+{
+  "name": "openclaw-injection-guard",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Prompt injection defense middleware for OpenClaw agents (COMP 3260 capstone).",
+  "scripts": {
+    "test": "node --experimental-strip-types --test test/*.test.ts"
+  },
+  "peerDependencies": {
+    "openclaw": ">=2026.3.24-beta.2"
+  },
+  "openclaw": {
+    "extensions": ["./dist/index.js"]
+  }
+}
